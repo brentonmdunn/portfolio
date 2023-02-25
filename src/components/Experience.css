@@ -1,0 +1,26 @@
+.experience {
+  margin-bottom: 40px;
+}
+
+.organization {
+  font-weight: 700;
+  margin: 0;
+}
+
+.alignleft {
+  float: left;
+  line-height: 0;
+}
+
+.alignright {
+  float: right;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.experience-bullets {
+  margin: 0;
+}
