@@ -1,0 +1,31 @@
+.experience {
+  margin-bottom: 40px;
+}
+
+/* h4 {
+  margin-top: 30px;
+} */
+
+.organization {
+  font-weight: 700;
+  /* background-color: blue; */
+  margin: 0;
+}
+
+.alignleft {
+  float: left;
+  line-height: 0;
+}
+
+.alignright {
+  float: right;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.experience-bullets {
+  margin: 0;
+}

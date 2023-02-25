@@ -1,10 +1,15 @@
 import { Experience } from "./Experience";
+import "./Experience.css";
 
 export const Boeing = () => {
   return (
-    <div>
-      <Experience organization="Boeing" title="Intern" />
-      <ul>
+    <div className="experience">
+      <Experience
+        organization="Boeing"
+        title="Intern"
+        dates="June 2021 - August 2021"
+      />
+      <ul className="experience-bullets">
         <li>
           Collaborated with another intern to develop a prototype website using
           React.js that takes user-inputted data from a form.

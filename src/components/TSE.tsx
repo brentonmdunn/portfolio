@@ -1,14 +1,16 @@
 import { Experience } from "./Experience";
+import "./Experience.css";
 
 export const TSE = () => {
   return (
-    <div>
+    <div className="experience">
       <Experience
         title="Software Developer"
         organization="Triton Software Engineering"
+        dates="November 2022 - Present"
       />
 
-      <ul>
+      <ul className="experience-bullets">
         <li>
           Developing a data visualization website pro-bono for the San Diego
           County Tax Association (501(c)(4)).
