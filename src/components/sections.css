@@ -1,0 +1,29 @@
+.skills {
+  background-color: #b66d6a;
+  color: white;
+}
+
+.experience-section {
+  /* background-color: #dddddd; */
+  background-color: #464646;
+  margin-top: 0;
+  color: white;
+}
+
+.section {
+  /* margin: 50px 0; */
+  /* padding: 200px 0; */
+  padding-bottom: 50px;
+  margin-bottom: -20px;
+}
+
+.padding {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+@media only screen and (max-width: 620px) {
+  .padding {
+    padding: 0 10%;
+  }
+}
