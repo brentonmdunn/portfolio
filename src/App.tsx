@@ -24,7 +24,7 @@ export const App = () => {
         <p className="bold">Relevant Coursework:</p>
         <ul>
           <li>Intro to Programming</li>
-          <li>Discrete Mathemathics</li>
+          <li>Discrete Mathematics</li>
           <li>Data Structures & Object Oriented Design</li>
           <li>Mathematics for Algorithms</li>
         </ul>
