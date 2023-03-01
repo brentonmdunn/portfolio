@@ -8,6 +8,7 @@ export const TSE = () => {
         title="Software Developer"
         organization="Triton Software Engineering"
         dates="November 2022 - Present"
+        location="La Jolla, California"
       />
 
       <ul className="experience-bullets">

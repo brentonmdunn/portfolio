@@ -5,6 +5,7 @@ body {
   /* padding: 0 20%; */
   font-family: "Roboto", sans-serif;
   transition: 0.35s;
+  font-size: 18px;
 }
 
 h1 {
@@ -17,6 +18,10 @@ h2 {
 
 .center {
   text-align: center;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 /* .body {

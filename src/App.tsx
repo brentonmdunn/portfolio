@@ -1,11 +1,12 @@
 import { Boeing } from "./components/Boeing";
-import { Education } from "./components/Education";
+import { Education as Contact } from "./components/Contact";
 import { Skills } from "./components/Skills";
 import { TSE } from "./components/TSE";
 import { Tutor } from "./components/Tutor";
 
 import "./App.css";
 import { Navbar } from "./components/Navbar";
+import { Education } from "./components/Education";
 
 export const App = () => {
   return (
@@ -13,13 +14,15 @@ export const App = () => {
       <Navbar />
       <div className="center">
         <h1>Brenton Dunn</h1>
-        <Education />
+        <Contact />
       </div>
-      <div className="section edu">
+      <div className="section edu padding">
         <h2 className="center">Education</h2>
-        <p className="padding">UC San Diego | Computer Science | June 2026</p>
-        <h3 className="padding">Relevant Coursework</h3>
-        <ul className="padding">
+        {/* <p className="bold">University of California San Diego</p>
+        <p>Major: Computer Science</p> */}
+        <Education />
+        <p className="bold">Relevant Coursework:</p>
+        <ul>
           <li>Intro to Programming</li>
           <li>Discrete Mathemathics</li>
           <li>Data Structures & Object Oriented Design</li>

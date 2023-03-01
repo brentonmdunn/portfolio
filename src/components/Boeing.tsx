@@ -8,6 +8,7 @@ export const Boeing = () => {
         organization="Boeing"
         title="Intern"
         dates="June 2021 - August 2021"
+        location="El Segundo, California"
       />
       <ul className="experience-bullets">
         <li>
