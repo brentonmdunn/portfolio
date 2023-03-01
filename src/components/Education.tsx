@@ -1,7 +1,24 @@
 export const Education = () => {
   return (
     <div>
-      <p>UC San Diego | Computer Science | June 2026</p>
+      <u>
+        <a
+          href="https://github.com/brentonmdunn"
+          target="_blank"
+          className="contact-link"
+        >
+          GitHub
+        </a>
+      </u>
+      <u>
+        <a
+          href="https://www.linkedin.com/in/brentonmdunn/"
+          target="_blank"
+          className="contact-link"
+        >
+          LinkedIn
+        </a>
+      </u>
     </div>
   );
 };

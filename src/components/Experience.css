@@ -24,3 +24,9 @@
 .experience-bullets {
   margin: 0;
 }
+
+.contact-link {
+  margin: 0 40px;
+  text-decoration: none;
+  color: black;
+}
