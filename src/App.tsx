@@ -16,6 +16,7 @@ export const App = () => {
         <Education />
       </div>
       <h2 className="center">Education</h2>
+      <p>UC San Diego | Computer Science | June 2026</p>
       <h3>Relevant Coursework</h3>
       <ul>
         <li>Intro to Programming</li>
