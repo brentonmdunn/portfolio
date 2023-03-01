@@ -6,8 +6,9 @@ export const Tutor = () => {
     <div className="experience">
       <Experience
         title="Instructional Assistant"
-        organization="UCSD Computer Science & Engineering Department"
+        organization="UCSD CSE Department"
         dates="March 2023 - Present"
+        location="La Jolla, California"
       />
       <ul className="experience-bullets">
         <li>

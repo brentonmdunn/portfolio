@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  margin: 50px 20%;
+  /* margin: 50px 20%; */
+  /* padding: 0 20%; */
   font-family: "Roboto", sans-serif;
-  transition: margin 0.35s;
+  transition: 0.35s;
+  font-size: 18px;
 }
 
 h1 {
@@ -11,15 +13,23 @@ h1 {
 }
 
 h2 {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .center {
   text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
-  body {
-    margin: 50px 10%;
-  }
+.bold {
+  font-weight: 700;
+}
+
+/* .body {
+  padding: 0 20%;
+} */
+
+.edu {
+  background-color: #4d5363;
+  padding-bottom: 50px;
+  color: white;
 }

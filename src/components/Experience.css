@@ -9,12 +9,12 @@
 
 .alignleft {
   float: left;
-  line-height: 0;
+  line-height: 5px;
 }
 
 .alignright {
   float: right;
-  line-height: 0;
+  line-height: 5px;
 }
 
 .clear {
@@ -30,3 +30,51 @@
   text-decoration: none;
   color: black;
 }
+
+.title-date {
+  /* margin-bottom: -20px; */
+}
+
+.top-bar {
+  /* margin-bottom: -10px; */
+}
+
+.flex-container {
+  display: flex;
+  height: 50px;
+  flex-flow: column wrap;
+  /* background-color: green; */
+  align-content: space-between;
+}
+
+.flex-container > div {
+  /* background-color: #fff; */
+  width: 300px;
+  margin: 0px;
+  /* text-align: center; */
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+@media only screen and (max-width: 975px) {
+  .right {
+    text-align: left;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 100px;
+    flex-flow: column wrap;
+    /* background-color: green; */
+    align-content: space-between;
+  }
+}
+
